@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f8ff;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+}
+
+.block {
+  background-color: #f0f8ff; 
+}
+
+.water {
+  background-color: #00b7ff; /* blue water */
+}
